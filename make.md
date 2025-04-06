@@ -1,0 +1,21 @@
+# make
+- **Make** is a build automation tool used in software development.
+- It uses a file called `Makefile` to define build rules and dependencies.
+- Automates the process of compiling and linking code.
+- Tracks changes in source files to rebuild only what is necessary.
+- Commonly used in C/C++ projects but supports other languages too.
+- Simplifies complex build processes and improves efficiency.
+- Works on Unix-like systems and is widely supported.
+- **make -j**: The `-j` option in `make` allows parallel execution of build jobs.
+    - It specifies the number of jobs (commands) to run simultaneously.
+    - Example: `make -j4` runs up to 4 jobs in parallel.
+    - Improves build speed by utilizing multiple CPU cores.
+    - If no number is specified (e.g., `make -j`), it runs as many jobs as possible.
+    - Useful for large projects with independent build tasks.
+    
+    - **file command**: The `file` command in Linux is used to determine the type of a file.
+        - Syntax: `file [filename]`
+        - Example: `file example.txt`
+        - Outputs the file type, such as text, binary, or executable.
+        - Useful for identifying unknown files or verifying file formats.
+        - Works on Termux and other Linux-based systems.
