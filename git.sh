@@ -16,3 +16,6 @@ git commit -m "$commit_message"
 
 # Push changes to the master branch
 git push origin master
+
+# Send a GNOME notification that the git push is complete
+notify-send "Git Upload" "Your changes have been successfully pushed to the master branch."
