@@ -26,4 +26,4 @@
     ```
 
 5. **Exit the PostgreSQL shell**:
-    Type `\q` to exit.
+    Type `\q` to exit.   
